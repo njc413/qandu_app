@@ -32,7 +32,6 @@ class QuestionDetailView(DetailView):
         context['answers'] = answers
         return context
 
-
 class QuestionUpdateView(UpdateView):
     model = Question
     template_name = 'question/question_form.html'
